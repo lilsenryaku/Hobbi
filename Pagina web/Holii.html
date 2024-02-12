@@ -1,0 +1,108 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    .imagen_1{ margin-bottom: 150px;
+        margin-right: 60px; 
+
+
+    }
+    .imagen_2{  margin-right: 70px;
+
+
+    }
+    .imagen_3{  margin-bottom: 150px;
+
+
+}
+.imagen_4{  margin-right: 70px;
+    
+
+
+}
+.imagen_5 {
+            position: absolute;
+        }
+
+
+
+
+  </style>
+
+
+
+
+<body bgcolor="F8EED8">
+    
+    
+   
+    
+    
+        <h1 style="text-align:center;">
+            <p style="font-family:cursive;">  
+                
+               Hola Mi Amor
+               <br>
+               <br>
+             </p>
+                 </h1>
+                  <h1 style="text-align: rigth ;">
+                <p style="font-family:cursive;"> 
+               te hice esta pagina para que recuerdes que cada vez
+               que tu me tratas feo soy estos gatitos y tengo corazon de pollo.
+            
+             </p>
+    
+            </h1> 
+
+      <img class="imagen_1" src="gatito tite.gif" width="500" height="350"> </img> 
+      <img class="imagen_2" src="gatito-triste.gif"> </img> 
+      <img class="imagen_3" src="gatete lloron.gif"width="500" height="350">
+        </img>
+        <br>
+        <h1 style="text-align: rigth ;">
+            <p style="font-family:cursive;"> 
+           entonces podrias perdonarme por molestarte jugando :c
+           <br>
+           <h1 style="text-align:center ;">
+           <a href="yeiiii.html"><img class="imagen_4" src="eleccion.JPG"width="150" height="100" > </a>
+           <img id="EleccionMala" alt="Imagen" class="imagen_5" src="eleccion mala.JPG" width="200" height="100" onmouseover="moverImagen()">
+        </h1>
+        
+         </p>
+
+        </h1> 
+        
+        
+    
+     <script>
+          function moverImagen() {
+            // Obtener el ancho y alto de la ventana del navegador
+            var windowWidth = window.innerWidth;
+            var windowHeight = window.innerHeight;
+
+            // Obtener un valor aleatorio para las posiciones left y top de la imagen
+            var randomLeft = Math.floor(Math.random() * (windowWidth - 100)); // Resta 100 para asegurar que la imagen no se salga de la ventana
+            var randomTop = Math.floor(Math.random() * (windowHeight - 100)); // Resta 100 para asegurar que la imagen no se salga de la ventana
+
+            // Obtener la imagen por su ID
+            var imagen = document.getElementById('EleccionMala');
+
+            // Asignar las posiciones aleatorias a la imagen
+            imagen.style.left = randomLeft + 'px';
+            imagen.style.top = randomTop + 'px';
+        }
+     </script>
+        
+        
+        
+
+
+        
+    
+        </html>
+</body>
